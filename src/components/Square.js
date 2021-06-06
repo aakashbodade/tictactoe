@@ -1,8 +1,10 @@
 import React from 'react'
 
+
+
 const Square = ({Value}) => {
    
-   return <button type="button">{Value}</button>
+   return <button type="button" className="square" >{Value}</button>
     
 };
 
